@@ -48,7 +48,7 @@ def secretWordChoice(combinations):
 def userWord():
 	userInput = input("Match it: ")
 	print("evaluating......")
-	time.sleep(2)
+	time.sleep(.5)
 	userInput = userInput[0:10]
 	userInput = userInput.upper()
 
@@ -65,23 +65,21 @@ def userWord():
 def compareString(string1, string2):
 	if string1 == string2:
 		print("Correct")
-		command = "2" + "\n"
-		command = command.encode()
-		ser.write(command)
+		c = "2" + "\n"
+		c = c.encode()
+		ser.write(c)
 
 		time.sleep(5)
 	
 	else:
 
 		print("Incorrect")
-		command = "3" + "\n"
-		command = command.encode()
-		ser.write(command)
-		correct = -1
+		w = "3" + "\n"
+		w = w.encode()
+		ser.write(w)
 		time.sleep(5)
 		
-	return correct
-
+	
 
 main()
 ser.close()

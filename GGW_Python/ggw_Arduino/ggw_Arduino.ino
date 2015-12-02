@@ -14,8 +14,6 @@ int timerSong[] = {NOTE_C5, NOTE_C6, NOTE_GS2,
                    NOTE_C5, NOTE_C6, NOTE_GS2,
                    NOTE_C5, NOTE_C6, NOTE_GS2,
                    NOTE_C5, NOTE_C6, NOTE_GS2,
-                   NOTE_C5, NOTE_C6, NOTE_GS2,
-                   NOTE_C5, NOTE_C6, NOTE_GS2,
                   };
 
 int winSong[] = {200, 400, 800, 1600, 3200};
