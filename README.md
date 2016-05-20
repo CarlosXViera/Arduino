@@ -1,2 +1,2 @@
-# MTEC2280
-This is the repository for MTEC2280
+# Arduino
+An aggregation of differet small arduino projects.
